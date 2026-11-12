@@ -41,7 +41,7 @@
 
 9. Sur quels nœuds se trouvent vos 3 réplicas ? Collez la sortie de `kubectl get pods -l app=site -o wide`.
    ```
-NODE   READINESS GATES
+> NODE   READINESS GATES
 site-845b89d549-854d6   1/1     Running   0          5m22s   10.42.0.9   k3d-lab-agent-0    <none>           <none>
 site-845b89d549-dgfgt   1/1     Running   0          1m15s     10.42.1.5   k3d-lab-agent-1    <none>           <none>
 site-845b89d549-mc6mt   1/1     Running   0          15s     10.42.2.6   k3d-lab-server-0   <none>
